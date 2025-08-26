@@ -4,6 +4,7 @@ import (
 	"context"
 	"database/sql"
 	"github.com/go-kratos/kratos-layout/internal/bondProductApi/biz/domain"
+	"github.com/go-kratos/kratos-layout/internal/bondProductApi/biz/dto"
 )
 
 var (
@@ -18,6 +19,7 @@ type RepoRegistry interface {
 // GreeterRepo is a Greater repo.
 type ProductRepo interface {
 	BannerList(context.Context) ([]*domain.BondProductItem, error)
+	ProductList(context.Context, *dto.ProductQueryReq) ([]*domain.BondProductItem, error)
 }
 
 type TxManager interface {

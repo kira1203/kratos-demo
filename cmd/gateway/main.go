@@ -73,7 +73,7 @@ func main() {
 	defer cleanup()
 
 	// 启动网关
-	if err := app.Start(nil); err != nil {
+	if err := app.Run(); err != nil {
 		panic(err)
 	}
 }
