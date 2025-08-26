@@ -21,7 +21,7 @@ func FromProductListReq(req *dto.ProductQueryReq) func(db *gorm.DB) *gorm.DB {
 	}
 }
 
-func FromUpdateReq(req *dto.ProductQueryReq) map[string]interface{} {
+func FromUpdateReq(req *dto.ProductUpdateReq) map[string]interface{} {
 	updates := make(map[string]interface{})
 
 	if req.ID != 0 {
@@ -44,7 +44,7 @@ func(db *gorm.DB) *gorm.DB {
 
 db.Scopes(updater)*/
 
-func FromUpdateReqWithExpr(req *dto.ProductQueryReq, expr ...func(db *gorm.DB) *gorm.DB) func(db *gorm.DB) *gorm.DB {
+func FromUpdateReqWithExpr(req *dto.ProductUpdateReq, expr ...func(db *gorm.DB) *gorm.DB) func(db *gorm.DB) *gorm.DB {
 	return func(db *gorm.DB) *gorm.DB {
 		updates := FromUpdateReq(req)
 		if len(updates) > 0 {

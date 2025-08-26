@@ -6,3 +6,7 @@ type ProductQueryReq struct {
 	Offset   int
 	Limit    int
 }
+
+type ProductUpdateReq struct {
+	ID int
+}
