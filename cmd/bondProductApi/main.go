@@ -17,10 +17,10 @@ import (
 // go build -ldflags "-X main.Version=x.y.z"
 
 const (
-	AppName           = "saas-bond-product-api"
-	AppNacosConfigKey = "saas-bond-product-api@@saas@@saas"
+	AppName           = "bond-product-api"
+	AppNacosConfigKey = "bond-product-api@@group@@namespace"
 	NacosRedisRWKey   = ""
-	NacosDBRWKey      = "cipher-mysql-lupu_bond-rw@@common@@lupu"
+	NacosDBRWKey      = "cipher-mysql-bond-rw@@group@@namespace"
 )
 
 var configKeys = map[string][]string{
@@ -60,21 +60,6 @@ func newApp(logger log.Logger, gs *grpc.Server, hs *http.Server) *kratos.App {
 }
 
 func main() {
-
-	a := make([]int, 3, 3) // len=3, cap=5 → append 不会扩容
-	a[0], a[1], a[2] = 1, 2, 3
-
-	fmt.Printf("a before: %v (len=%d, cap=%d)\n", a, len(a), cap(a))
-
-	func(s []int) {
-		fmt.Printf("s before append: %v (len=%d, cap=%d)\n", s, len(s), cap(s))
-		s = append(s, 4) // cap=5 >= 4，不会扩容
-		fmt.Printf("s after append: %v (len=%d, cap=%d)\n", s, len(s), cap(s))
-		s[0] = 999 // 修改底层数组第0个元素
-	}(a)
-
-	fmt.Printf("a after: %v\n", a)
-
 	logger := log.With(log.NewStdLogger(os.Stdout),
 		"ts", log.DefaultTimestamp,
 		"caller", log.DefaultCaller,

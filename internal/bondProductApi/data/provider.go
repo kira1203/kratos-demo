@@ -61,7 +61,7 @@ func NewGormDB(cfg *config.Data) *gormtool.Orm {
 		User:     "cfg.Database.User",
 		Password: "cfg.Database.User",
 		Host:     "cfg.Database.User",
-		Port:     000,
+		Port:     3366,
 		Schema:   "cfg.Database.User",
 	}, &gormtool.DBConfig{
 		MaxIdleConn:     6,
