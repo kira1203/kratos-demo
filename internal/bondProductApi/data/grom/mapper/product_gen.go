@@ -20,7 +20,7 @@ func ToBondProductItem(do *model.TProduct) *domain.BondProductItem {
 		return nil
 	}
 	return &domain.BondProductItem{
-		Id:         do.Id,
+		ID:         do.Id,
 		ProductId:  do.ProductId,
 		Name:       do.Name,
 		NameEn:     do.NameEn,

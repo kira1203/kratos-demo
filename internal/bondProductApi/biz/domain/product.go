@@ -1,7 +1,7 @@
 package domain
 
 type BondProductItem struct {
-	Id              int64  `json:"id" `                //
+	ID              int64  `json:"id" `                //
 	ProductId       string `json:"product_id" `        // product_id
 	Symbol          string `json:"symbol" `            // symbol
 	Isin            string `json:"isin" `              // ISIN

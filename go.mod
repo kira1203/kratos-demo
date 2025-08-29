@@ -12,6 +12,7 @@ require (
 	github.com/nacos-group/nacos-sdk-go v1.0.9
 	github.com/shopspring/decimal v1.4.0
 	github.com/spf13/viper v1.20.1
+	github.com/stretchr/testify v1.10.0
 	go.uber.org/automaxprocs v1.5.1
 	google.golang.org/genproto/googleapis/api v0.0.0-20241209162323-e6fa225c2576
 	google.golang.org/grpc v1.67.3
@@ -25,6 +26,7 @@ require (
 	filippo.io/edwards25519 v1.1.0 // indirect
 	github.com/aliyun/alibaba-cloud-sdk-go v1.61.1800 // indirect
 	github.com/buger/jsonparser v1.1.1 // indirect
+	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fsnotify/fsnotify v1.8.0 // indirect
 	github.com/go-errors/errors v1.0.1 // indirect
 	github.com/go-kratos/aegis v0.2.1-0.20230616030432-99110a3f05f4 // indirect
@@ -46,6 +48,7 @@ require (
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/pelletier/go-toml/v2 v2.2.3 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/sagikazarmark/locafero v0.7.0 // indirect
 	github.com/sourcegraph/conc v0.3.0 // indirect
 	github.com/spf13/afero v1.12.0 // indirect
