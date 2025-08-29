@@ -3,10 +3,10 @@ package biz
 import (
 	"context"
 	"errors"
-	"github.com/go-kratos/kratos-layout/internal/bondProductApi/biz/domain"
-	"github.com/go-kratos/kratos-layout/internal/bondProductApi/biz/dto"
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/stretchr/testify/assert"
+	"kratos-demo/internal/bondProductApi/biz/domain"
+	"kratos-demo/internal/bondProductApi/biz/dto"
 	"testing"
 )
 

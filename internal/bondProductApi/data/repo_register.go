@@ -1,7 +1,7 @@
 package data
 
 import (
-	"github.com/go-kratos/kratos-layout/internal/bondProductApi/biz"
+	"kratos-demo/internal/bondProductApi/biz"
 )
 
 type repoRegistry struct {

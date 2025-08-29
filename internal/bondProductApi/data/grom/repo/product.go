@@ -2,12 +2,12 @@ package repo
 
 import (
 	"context"
-	"github.com/go-kratos/kratos-layout/internal/bondProductApi/biz"
-	"github.com/go-kratos/kratos-layout/internal/bondProductApi/biz/domain"
-	"github.com/go-kratos/kratos-layout/internal/bondProductApi/biz/dto"
-	"github.com/go-kratos/kratos-layout/internal/bondProductApi/data/grom/builder"
-	gormtool "github.com/go-kratos/kratos-layout/pkg/gorm"
 	"github.com/go-kratos/kratos/v2/log"
+	"kratos-demo/internal/bondProductApi/biz"
+	"kratos-demo/internal/bondProductApi/biz/domain"
+	"kratos-demo/internal/bondProductApi/biz/dto"
+	"kratos-demo/internal/bondProductApi/data/grom/builder"
+	gormtool "kratos-demo/pkg/gorm"
 )
 
 type productRepo struct {

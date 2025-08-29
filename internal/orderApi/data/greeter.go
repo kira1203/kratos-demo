@@ -2,7 +2,7 @@ package data
 
 import (
 	"context"
-	"github.com/go-kratos/kratos-layout/internal/orderApi/biz"
+	"kratos-demo/internal/orderApi/biz"
 
 	"github.com/go-kratos/kratos/v2/log"
 )

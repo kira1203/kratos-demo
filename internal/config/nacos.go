@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	pkgnacos "github.com/go-kratos/kratos-layout/pkg/nacos"
 	"github.com/spf13/viper"
+	pkgnacos "kratos-demo/pkg/nacos"
 )
 
 var (

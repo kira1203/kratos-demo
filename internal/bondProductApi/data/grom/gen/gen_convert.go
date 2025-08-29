@@ -25,8 +25,8 @@ func main() {
 package mapper
 
 import (
-	"github.com/go-kratos/kratos-layout/internal/bondProductApi/biz/domain"
-	model "github.com/go-kratos/kratos-layout/internal/bondProductApi/data/grom/models"
+	"kratos-demo/internal/bondProductApi/biz/domain"
+	model "kratos-demo/internal/bondProductApi/data/grom/models"
 	"github.com/shopspring/decimal"
 )
 

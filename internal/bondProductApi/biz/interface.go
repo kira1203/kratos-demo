@@ -3,8 +3,8 @@ package biz
 import (
 	"context"
 	"database/sql"
-	"github.com/go-kratos/kratos-layout/internal/bondProductApi/biz/domain"
-	"github.com/go-kratos/kratos-layout/internal/bondProductApi/biz/dto"
+	"kratos-demo/internal/bondProductApi/biz/domain"
+	"kratos-demo/internal/bondProductApi/biz/dto"
 )
 
 var (

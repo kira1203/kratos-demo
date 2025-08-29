@@ -2,7 +2,7 @@ package gateway
 
 import (
 	"context"
-	"github.com/go-kratos/kratos-layout/internal/gateway/registry"
+	"kratos-demo/internal/gateway/registry"
 	"log"
 	"net/http"
 	"net/http/httputil"

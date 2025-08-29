@@ -2,9 +2,9 @@ package biz
 
 import (
 	"context"
-	"github.com/go-kratos/kratos-layout/internal/bondProductApi/biz/domain"
-	"github.com/go-kratos/kratos-layout/internal/bondProductApi/biz/dto"
 	"github.com/go-kratos/kratos/v2/log"
+	"kratos-demo/internal/bondProductApi/biz/domain"
+	"kratos-demo/internal/bondProductApi/biz/dto"
 )
 
 type ProductBiz struct {

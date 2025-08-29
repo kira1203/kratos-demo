@@ -1,8 +1,8 @@
 package server
 
 import (
-	"github.com/go-kratos/kratos-layout/internal/bondProductApi/service"
 	"github.com/google/wire"
+	"kratos-demo/internal/bondProductApi/service"
 )
 
 // ServerProviderSet is server providers.

@@ -8,5 +8,8 @@ type ProductQueryReq struct {
 }
 
 type ProductUpdateReq struct {
-	ID int
+	ID     int
+	NameCN string
+	NameTC string
+	NameEN string
 }

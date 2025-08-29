@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/go-kratos/kratos-layout/internal/config"
+	"kratos-demo/internal/config"
 	"os"
 
 	"github.com/go-kratos/kratos/v2"

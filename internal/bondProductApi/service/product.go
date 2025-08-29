@@ -3,11 +3,11 @@ package service
 import (
 	"context"
 	"fmt"
-	"github.com/go-kratos/kratos-layout/internal/bondProductApi/biz"
 	"github.com/go-kratos/kratos/v2/transport/grpc"
 	"github.com/go-kratos/kratos/v2/transport/http"
+	"kratos-demo/internal/bondProductApi/biz"
 
-	v1 "github.com/go-kratos/kratos-layout/gen/api/product/v1"
+	v1 "kratos-demo/gen/api/product/v1"
 )
 
 // BondProductService is a greeter service.

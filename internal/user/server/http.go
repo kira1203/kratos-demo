@@ -1,10 +1,10 @@
 package server
 
 import (
-	v1 "github.com/go-kratos/kratos-layout/gen/api/product/v1"
-	"github.com/go-kratos/kratos-layout/internal/config"
-	"github.com/go-kratos/kratos-layout/internal/user/service"
 	"github.com/go-kratos/kratos/v2/middleware/tracing"
+	v1 "kratos-demo/gen/api/product/v1"
+	"kratos-demo/internal/config"
+	"kratos-demo/internal/user/service"
 
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/go-kratos/kratos/v2/middleware/recovery"

@@ -1,11 +1,11 @@
 package server
 
 import (
-	"github.com/go-kratos/kratos-layout/internal/config"
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/go-kratos/kratos/v2/middleware/recovery"
 	"github.com/go-kratos/kratos/v2/middleware/tracing"
 	"github.com/go-kratos/kratos/v2/transport/http"
+	"kratos-demo/internal/config"
 )
 
 func NewHTTPServer(c *config.Server, logger log.Logger, registers ...Register) *http.Server {

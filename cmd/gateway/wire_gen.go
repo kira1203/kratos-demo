@@ -7,9 +7,9 @@
 package main
 
 import (
-	"github.com/go-kratos/kratos-layout/internal/config"
-	"github.com/go-kratos/kratos-layout/internal/gateway"
-	"github.com/go-kratos/kratos-layout/internal/gateway/registry"
+	"kratos-demo/internal/config"
+	"kratos-demo/internal/gateway"
+	"kratos-demo/internal/gateway/registry"
 	"github.com/go-kratos/kratos/v2"
 	"github.com/go-kratos/kratos/v2/log"
 )

@@ -2,10 +2,10 @@ package ent
 
 import (
 	"context"
-	"github.com/go-kratos/kratos-layout/internal/bondProductApi/biz"
-	"github.com/go-kratos/kratos-layout/internal/bondProductApi/biz/domain"
-	"github.com/go-kratos/kratos-layout/internal/bondProductApi/biz/dto"
-	gormtool "github.com/go-kratos/kratos-layout/pkg/gorm"
+	"kratos-demo/internal/bondProductApi/biz"
+	"kratos-demo/internal/bondProductApi/biz/domain"
+	"kratos-demo/internal/bondProductApi/biz/dto"
+	gormtool "kratos-demo/pkg/gorm"
 
 	"github.com/go-kratos/kratos/v2/log"
 )

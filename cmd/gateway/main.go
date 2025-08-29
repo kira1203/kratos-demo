@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/go-kratos/kratos-layout/internal/config"
 	"github.com/go-kratos/kratos/v2"
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/go-kratos/kratos/v2/middleware/tracing"
 	"github.com/go-kratos/kratos/v2/transport/http"
+	"kratos-demo/internal/config"
 	"os"
 )
 

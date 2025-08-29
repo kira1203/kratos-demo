@@ -2,9 +2,9 @@ package registry
 
 import (
 	"context"
-	"github.com/go-kratos/kratos-layout/internal/config"
 	"github.com/go-kratos/kratos/contrib/registry/nacos/v2"
 	"github.com/go-kratos/kratos/v2/registry"
+	"kratos-demo/internal/config"
 )
 
 // NacosClient 实现 RegistryClient 接口

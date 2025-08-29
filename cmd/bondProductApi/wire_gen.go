@@ -7,12 +7,12 @@
 package main
 
 import (
-	"github.com/go-kratos/kratos-layout/internal/bondProductApi/biz"
-	"github.com/go-kratos/kratos-layout/internal/bondProductApi/data"
-	"github.com/go-kratos/kratos-layout/internal/bondProductApi/data/grom/repo"
-	"github.com/go-kratos/kratos-layout/internal/bondProductApi/server"
-	"github.com/go-kratos/kratos-layout/internal/bondProductApi/service"
-	"github.com/go-kratos/kratos-layout/internal/config"
+	"kratos-demo/internal/bondProductApi/biz"
+	"kratos-demo/internal/bondProductApi/data"
+	"kratos-demo/internal/bondProductApi/data/grom/repo"
+	"kratos-demo/internal/bondProductApi/server"
+	"kratos-demo/internal/bondProductApi/service"
+	"kratos-demo/internal/config"
 	"github.com/go-kratos/kratos/v2"
 	"github.com/go-kratos/kratos/v2/log"
 )

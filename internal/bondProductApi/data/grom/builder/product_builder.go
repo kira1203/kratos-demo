@@ -1,9 +1,9 @@
 package builder
 
 import (
-	"github.com/go-kratos/kratos-layout/internal/bondProductApi/biz/dto"
-	model "github.com/go-kratos/kratos-layout/internal/bondProductApi/data/grom/models"
 	"gorm.io/gorm"
+	"kratos-demo/internal/bondProductApi/biz/dto"
+	model "kratos-demo/internal/bondProductApi/data/grom/models"
 )
 
 // Build 返回 GORM Scope

@@ -4,7 +4,7 @@ package product.v1;
 
 import "google/api/annotations.proto";
 
-option go_package = "github.com/go-kratos/kratos-layout/gen/product/v1;v1";
+option go_package = "kratos-demo/gen/product/v1;v1";
 
 // The greeting service definition.
 service Product {

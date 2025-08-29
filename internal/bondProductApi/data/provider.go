@@ -1,13 +1,13 @@
 package data
 
 import (
-	"github.com/go-kratos/kratos-layout/internal/bondProductApi/biz"
-	"github.com/go-kratos/kratos-layout/internal/bondProductApi/data/ent"
-	"github.com/go-kratos/kratos-layout/internal/bondProductApi/data/grom/repo"
-	"github.com/go-kratos/kratos-layout/internal/config"
-	gormtool "github.com/go-kratos/kratos-layout/pkg/gorm"
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/google/wire"
+	"kratos-demo/internal/bondProductApi/biz"
+	"kratos-demo/internal/bondProductApi/data/ent"
+	"kratos-demo/internal/bondProductApi/data/grom/repo"
+	"kratos-demo/internal/config"
+	gormtool "kratos-demo/pkg/gorm"
 )
 
 // ProviderSet is data providers.
